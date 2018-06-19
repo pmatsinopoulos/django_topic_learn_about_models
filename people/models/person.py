@@ -15,3 +15,8 @@ class Person(models.Model):
     shirt_size = models.CharField(max_length=1,
                                   choices=SHIRT_SIZES,
                                   default='S')
+
+    def __unicode__(self):
+        return "{} {}".format(self.first_name, self.last_name)
+
+
