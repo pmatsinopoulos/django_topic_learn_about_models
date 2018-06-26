@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'people',
     'pizzas',
     'places',
+    'quizzes',
 ]
 
 MIDDLEWARE = [
