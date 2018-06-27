@@ -2,6 +2,9 @@ from django.db import models
 
 
 class Blog(models.Model):
+    """
+    Contains all the articles.
+    """
     class Meta:
         db_table = 'articles_blogs'
 
