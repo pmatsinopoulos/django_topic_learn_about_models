@@ -29,7 +29,7 @@ class Person(models.Model):
         """
         if self.birth_date < datetime.date(1945, 8, 1):
             return "Pre-boomer"
-        elif self.birth_datre < datetime.date(1965, 1, 1):
+        elif self.birth_date < datetime.date(1965, 1, 1):
             return "Baby boomer"
         else:
             return "Post-boomer"
