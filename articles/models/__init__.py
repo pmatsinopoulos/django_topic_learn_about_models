@@ -1,7 +1,7 @@
-from articles.models.blog import Blog
-from articles.models.reporter import Reporter
-from articles.models.article import Article
-from articles.models.publication import Publication
+from .blog import Blog
+from .reporter import Reporter
+from .article import Article
+from .publication import Publication
 
 __all__ = [
     'Blog',

@@ -1,5 +1,5 @@
 from django.db import models
-from places.models import Restaurant
+from .restaurant import Restaurant
 
 
 class Waiter(models.Model):

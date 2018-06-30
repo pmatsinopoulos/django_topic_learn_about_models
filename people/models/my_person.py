@@ -1,4 +1,4 @@
-from people.models import Person
+from .person import Person
 
 
 class MyPerson(Person):

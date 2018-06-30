@@ -1,7 +1,7 @@
 from django.db import models
 
-from articles.models.reporter import Reporter
-from articles.models.publication import Publication
+from .reporter import Reporter
+from .publication import Publication
 
 
 class Article(models.Model):

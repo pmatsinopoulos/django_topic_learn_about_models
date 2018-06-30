@@ -1,5 +1,5 @@
 from django.db import models
-from people.models.person import Person
+from .person import Person
 
 
 class Group(models.Model):

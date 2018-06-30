@@ -1,6 +1,6 @@
 from django.db import models
-from people.models import Person
-from people.models import Group
+from .person import Person
+from .group import Group
 
 
 class Membership(models.Model):

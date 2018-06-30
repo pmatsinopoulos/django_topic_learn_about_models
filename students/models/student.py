@@ -1,5 +1,5 @@
 from django.db import models
-from students.models import CommonInfo
+from .common_info import CommonInfo
 
 
 class Student(CommonInfo):

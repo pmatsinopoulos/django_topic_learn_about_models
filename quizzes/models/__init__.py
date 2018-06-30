@@ -1,3 +1,3 @@
-from quizzes.models.question import Question
-from quizzes.models.answer import Answer
+from .question import Question
+from .answer import Answer
 

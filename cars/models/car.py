@@ -1,5 +1,5 @@
 from django.db import models
-from cars.models.manufacturer import Manufacturer
+from .manufacturer import Manufacturer
 
 
 class Car(models.Model):

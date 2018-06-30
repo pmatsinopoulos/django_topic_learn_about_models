@@ -1,6 +1,6 @@
-from places.models.place import Place
-from places.models.restaurant import Restaurant
-from places.models.waiter import Waiter
+from .place import Place
+from .restaurant import Restaurant
+from .waiter import Waiter
 
 __all__ = ['Place',
            'Restaurant',

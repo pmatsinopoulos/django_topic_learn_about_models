@@ -1,5 +1,5 @@
 from django.db import models
-from quizzes.models import Question
+from .question import Question
 
 
 class Answer(models.Model):

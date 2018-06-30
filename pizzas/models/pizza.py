@@ -1,5 +1,5 @@
 from django.db import models
-from pizzas.models.topping import Topping
+from .topping import Topping
 
 
 class Pizza(models.Model):
